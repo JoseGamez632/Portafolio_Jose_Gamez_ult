@@ -24,6 +24,7 @@
 </script>
     </head>
     <body class="d-flex flex-column">
+
         <div class="bg"></div>
         <div class="bg bg2"></div>
         <div class="bg bg3"></div>
@@ -39,6 +40,7 @@
                             <li class="nav-item"><a class="nav-link" href="resume.html">Perfil Laboral</a></li>
                             <li class="nav-item"><a class="nav-link" href="projects.html">Proyectos</a></li>
                             <li class="nav-item"><a class="nav-link" href="contact.html">Contactame</a></li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -56,6 +58,7 @@
                         <div class="row gx-5 justify-content-center">
                             <div class="col-lg-8 col-xl-6">
                                 <form id="form" data-sb-form-api-token="API_TOKEN">
+
                                     <!-- Nombre input -->
                                     <div class="form-floating mb-3">
                                         <input class="form-control" id="nombre" name="nombre" type="text" placeholder="Introduce tu nombre..." data-sb-validations="required" />
@@ -89,7 +92,16 @@
                                     <div class="d-grid">
                                         <button class="btn btn-primary btn-lg" id="button" type="submit" value="Send Email" >Enviar Email</button>
                                     </div>
-                                
+                                    <br>
+                                    <div style="display: flex; justify-content: center; ; background-color: #f4f4f9;">
+                                        <iframe 
+                                        src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FBogota&bgcolor=%23ffffff&src=amdhbWV6NjMyQGdtYWlsLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZmFtaWx5MDgzMzE1MDc0ODU4OTMzODM5MzRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZXMuY28jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%2333B679&color=%239E69AF&color=%230B8043" 
+                                        style="border:solid 3px #dde020; border-radius: 15px; box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);" 
+                                        width="800" height="300" frameborder="0" scrolling="no">
+                                        </iframe>
+                                    </div>
+
+
                                     <!-- Mensajes de éxito/error -->
                                     <div class="d-none" id="submitSuccessMessage">
                                         <div class="text-center mb-3">
